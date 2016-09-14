@@ -1,0 +1,10 @@
+# 
+# $1 consumerKey
+# $2 consumerSecret
+# $3 accessToken
+# $4 accessSecret
+# $5 query
+# $6 max number of tweets to retrieve
+
+java -jar target/Twitter2RDF-0.1-jar-with-dependencies.jar $1 $2 $3 $4 "$5" $6 
+
